@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    background-image: url('contato-imagem-background.jpg');
+    background-repeat: no-repeat;
+}
+
+.caixa {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.imagem-inicial {
+    width: 100%;
+}
+
+header h1 {
+    margin: 40px 0px 0px 50px;
+    font-size: 40px;
+    font-family: 'Ms Madi', cursive;
+
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+
+}
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    font-size: 21px;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+}
+
+main form h2 {
+    margin: 0px 15px;
+    padding-bottom: 30px;
+}
+
+main form {
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 50px;
+    position: absolute;
+    top: 200px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.281);
+    border-radius: 4px;
+}
+
+main form p {
+    margin-bottom: 2px;
+}
+
+.campoDeEscolha {
+    margin-top: 2px;
+}
+
+.campo {
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    border-color: rgba(124, 118, 118, 0.301);
+}
+
+fieldset {
+    border: none;
+}
+
+textarea{
+    border-radius: 4px;
+    border-color: rgba(124, 118, 118, 0.301);
+}
+
+.enviar {
+    padding: 10px;
+    font-size: 15px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: #d9851e5d;
+    background-color: orange;
+    color: #fff;
+    position: relative;
+    left: 140px;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+}
+
+footer p {
+    padding-top: 5px;
+}

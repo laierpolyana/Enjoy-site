@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style-contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class = "caixa">
+            <h1>Enjoy</h1>
+            <nav>
+                   <ul>
+                       <a href="index.html"  class="selecao"><li>Home</li></a>
+                       <a href=""  class="selecao"><li>Pacotes</li></a>
+                       <a href="contato.html"  class="selecao"><li>Contato</li></a>
+                       <a href=""  class="selecao"><li>Login</li></a>
+                   </ul>
+               </nav>
+        </div>
+   </header>
+</body>
+<main>
+    <form>
+        <h2>Envie-nos uma mensagem ;)</h2>
+               
+        <p>
+            <p><label for="nome">Nome</label></p>
+            <input type="text" id="nome" class="campo" required>
+        </p>
+
+        <p>
+            <p><label for="email">Email</label></p>
+            <input type="email" id="email" class="campo" required placeholder="seuemail@dominio.com">
+        </p>
+
+        <p><label for="telefone">Telefone</label></p>
+        <input type="tel" id="telefone" class="campo" required placeholder="(xx)xxxxx-xxxx">
+
+        <p>
+            <p><label for="mensagem">Mensagem</label></p>
+            <textarea cols="53" rows="10" required> </textarea> 
+        </p>
+
+        <fieldset>
+                <legend>
+                    Como prefre o nosso contato de retorno?
+                </legend>
+        
+                <p>
+                    <label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email">Email</label>
+                </p>
+        
+                <p class="campoDeEscolha">
+                    <label for="radio-telefone"><input type="radio" value="telefone" name="contato" id="radio-telefone">Telefone</label>
+                </p>
+        
+                <p class="campoDeEscolha">
+                    <label for="radio-wpp"><input type="radio" value="wpp" name="contato" id="radio-wpp" checked>WhatsApp</label>
+                </p>
+        </fieldset>
+
+        <fieldset><p><label><legend><input type="checkbox">Gostaria de receber nossas novidades por email?</legend></label></p></fieldset>
+        
+        
+        <p><input type="submit" class="enviar" value="Enviar Mensagem"></p>
+     </form>
+    
+</main>
+<footer>
+    <div>
+        <p> &copy; Desenvolvido por Polyana Laier - 2022</p>
+    </div>
+</footer>
+</html>

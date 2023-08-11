@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: #000;
+    background-image: url('viagem.png');
+}
+
+.caixa {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.imagem-inicial {
+    width: 100%;
+}
+
+header h1 {
+    margin: 40px 0px 0px 50px;
+    font-size: 40px;
+    font-family: 'Ms Madi', cursive;
+
+}
+
+main > h1 {
+    opacity: 0.8;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+
+}
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    font-size: 21px;
+}
+
+.caixa-de-pesquisa {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 155px;
+    margin: 0px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+    border-radius: 2px;
+    position: relative;
+    top: -310px;
+}
+
+.pctViagem{
+    margin-left: 60px; 
+    padding-top: 30px;
+    font-size: 20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+#txtBusca {
+    width: 20%;
+    margin: 0px 0px 0px 120px;
+    padding: 10px;
+    border-radius: 2px;
+    border-color: rgba(128, 128, 128, 0.116);
+    padding-right: 220px;
+    font-size: 18px;
+}
+
+#btDataInicial, #btDataFinal {
+    width: 10%;
+    margin: 20px 0px 0px 15px;
+    padding: 10px;
+    border-radius: 2px;
+    border-color: rgba(128, 128, 128, 0.116);
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+#btBuscar {
+    background-color:  rgba(128, 128, 128, 0.247);
+    padding: 16px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin: 0px 0px 0px 45px;
+    position: relative;
+    top: -500px;
+    
+}
+
+.subtitulo{
+    margin-top: 10px;
+    font-size: 50px;
+    font-style: italic;
+}
+.pctAproveitar {
+    margin: -250px 0px 30px 130px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagem {
+    border-radius: 5px;
+    height: 300px;
+    width: 245px;
+}
+
+ul img:hover {
+    transform: scale(1.05);
+}
+
+.lista {
+    margin: 3% 1.25%;
+    padding:10px;
+    height: 420px;
+}
+
+.produtos {
+    display: flex;
+    width: 1250px;
+    height: 600px;
+    text-align: left;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.lugar {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.descricao {
+    text-align: left;
+    padding: 0px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+main div p {
+    margin: 15px 0px 0px 0px;
+}
+
+.valor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.botao-confira {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(71, 231, 71, 0.849);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+    left: 150px;
+    transition: 0.5s background;
+}
+
+.botao-confira:hover {
+    background-color: rgba(11, 116, 11, 0.801);
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+}
+
+footer p {
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .caixa-de-pesquisa {
+        height: 230px;
+    }
+    #txtBusca {
+        margin-left: 30px;
+    }
+   
+}
